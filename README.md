@@ -1,3 +1,5 @@
+Drupal.org User Styles
+======================
 
 These styles are the current styles for (Joel Pittet's Drupal.org)[http://userstyles.org/styles/95179/joel-pittet-s-drupal-org-styles] Styles on userstyles.org
 
