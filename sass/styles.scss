@@ -1,0 +1,283 @@
+@-moz-document domain(drupal.org) {
+
+  #header {
+    background-image: none !important;
+  }
+
+  .container-12 {
+    width: 1140px !important;
+  }
+
+  /* Header */
+
+  #header-content {
+    padding-top: 0 !important;
+  }
+
+
+  h1#site-name {
+    margin: 0 !important;
+  }
+
+  #site-name {
+    margin-top: -10px !important;
+    margin-bottom: 25px !important;
+  }
+
+  #header-right-inner {
+    margin-top: 1em !important;
+  }
+
+
+  #header {
+    border-top: 30px solid #4C8EBC !important;
+  }
+
+  #header-screen {
+    border-top: 2px solid #ff !important;
+  }
+
+  #header-inner {
+    position: relative;
+  }
+
+  #nav-masthead {
+    float: none !important;
+    height: 30px !important;
+    margin-right: 0 !important;
+    position: absolute !important;
+    right: 0 !important;
+    text-align: right !important;
+    top: -30px !important;
+    .homepage {
+      display: none !important;
+    }
+  }
+
+  #nav-masthead ul {
+    display: inline;
+
+    li {
+      float: none !important;
+      display: inline !important;
+
+      a {
+        float: none !important;
+        border-radius: 0px !important;
+        display: inline-block !important;
+        background-color: transparent !important;
+        padding: 0.5em 0.75em 0.5em !important;
+      }
+    }
+  }
+
+
+  #nav-header ul {
+    background-color: rgba(255, 255, 255, 0.2) !important;
+  }
+
+  #userinfo {
+    float: none !important;
+    display: inline-block !important;
+    a {
+      padding: 0px 1em !important;
+      border-width: 0px !important;
+    }
+  }
+
+  /* Tabs */
+  #nav-content {
+    background-color: #DEF0FB !important;
+    margin: 2px 0 !important;
+    ul {
+      border-radius: 0 !important;
+      border: 0 !important;
+      margin-bottom: 0 !important;
+    }
+  }
+
+  #nav-content li.active,
+  #nav-content li.active-parent a {
+    background-color: #fff !important;
+    border-radius: 0 !important;
+    border: 0 !important;
+    margin-top: -0.3em !important;
+    padding-top: 0.3em !important;
+  }
+
+  #nav-content li.active a.active,
+  #nav-content li.active-parent a {
+    padding: 0.25em 1em !important;
+  }
+
+  #page {
+    margin-top: 0px !important;
+  }
+
+  /* Page title */
+  #page-title-tools {
+    background-color: #AED8F5 !important;
+    margin: 2px 0 !important;
+    padding: 0.5em 1em !important;
+  }
+
+  #page-title {
+    color: #fff !important;
+    font-size: 18px !important;
+    margin: 0 !important;
+  }
+
+  .page-title-wrapper {
+    margin: 0 !important;
+  }
+
+  #page-tools {
+    margin: 0 !important;
+  }
+
+  #page-tools li {
+    border: 0 !important;
+    float: left !important;
+    line-height: 1.4em !important;
+    padding: 10px 10px 10px !important;
+  }
+
+  /* Header Search */
+  #search-block-form {
+    float: right;
+  }
+
+  #header input[type="text"] {
+    border: 0 !important;
+    margin: 0 !important;
+  }
+
+  #header input[type="submit"] {
+    border-radius: 0 !important;
+    margin-top: 0 !important;
+  }
+
+  #search-theme-form-advanced fieldset.collapsible legend a {
+    color: #fff !important;
+    font-size: 12px !important;
+    text-transform: uppercase !important;
+  }
+
+
+  a.link-button,
+  a.link-button:link,
+  a.link-button:visited,
+  a.link-button:active,
+  input[type="submit"],
+  button {
+    background-image: none !important;
+  }
+
+
+  /*
+
+  Dreditor changes aren't working well.
+  .dreditor-button,
+  .dreditor-button:link,
+  .dreditor-button:visited,
+  #content a.dreditor-button
+  */
+
+  .doh-link {
+    background: #1281c8 !important;
+    color: #fff !important;
+    font-weight: bold !important;
+    border-radius: 0 !important;
+    border: 0 !important;
+    padding: 0.231em 0.615em !important;
+    box-shadow: none !important;
+  }
+
+  .doh-link:hover {
+    background: #40a9ec !important;
+  }
+
+  #main {
+    display: inline-block !important;
+    margin-top: 30px !important;
+  }
+
+  /* Submitted */
+  .submitted time {
+      color: #333333;
+      font-style: normal !important;
+  }
+
+  .submitted,
+  #content .modified,
+  #aggregator .feed-item-meta,
+  #content .comment .links {
+    color: #aaa !important;
+    font-size: 0.8em !important;
+    text-transform: uppercase;
+    margin-bottom: 0.75em!important;
+  }
+
+  .submitted a {
+    text-transform: none !important;
+  }
+
+  /* Number permalinks */
+  .node-type-project-issue .comment .permalink {
+    color: #999 !important;
+    font-size: 1.5em !important;
+
+    line-height: 1em !important;
+    position: absolute !important;
+
+    margin-top: 5px !important;
+    position: absolute !important;
+    text-align: right !important;
+
+    margin-left: -110px !important;
+    width: 100px !important;
+  }
+
+  /* Comments */
+  .comment .submitted {
+    margin-top: 5px !important;
+  }
+
+  .comment {
+    position: relative;
+  }
+
+  .comment-report {
+    position: absolute;
+    right: 0;
+    top: 5px;
+  }
+
+  .comment-report a {
+    color: #aaa !important;
+  }
+
+
+  /* Issue status */
+
+  #block-project-issue-issue-metadata .field-name-field-issue-status {
+    color: #555555 !important;
+    font-size: 18px !important;
+    font-weight: normal !important;
+    padding: 1em 0 0.75em !important;
+  }
+
+  #block-project-issue-issue-metadata .field {
+      padding: 0 !important;
+  }
+
+  #block-project-issue-issue-metadata .field-label {
+    background-color: rgba(255, 255, 255, 0.82);
+    padding: 0 0.5em !important;
+    text-align: right !important;
+  }
+
+  #block-project-issue-issue-metadata .field-items {
+    padding: 0 0.5em !important;
+  }
+}
