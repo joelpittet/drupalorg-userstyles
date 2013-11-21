@@ -1,19 +1,34 @@
+
 @-moz-document domain(drupal.org) {
+
+  @import "bourbon/bourbon";
+  @import "neat/neat";
+
+  $max-width: 1140px;
+  $grid-columns: 12;
+
 
   #header {
     background-image: none !important;
   }
 
+  .grid-12
   .container-12 {
-    width: 1140px !important;
+    @include span-columns(12);
+  }
+
+  .grid-8 {
+    @include span-columns(8);
+  }
+
+  .grid-4 {
+    @include span-columns(4);
   }
 
   /* Header */
-
   #header-content {
     padding-top: 0 !important;
   }
-
 
   h1#site-name {
     margin: 0 !important;
@@ -152,7 +167,15 @@
     margin: 0 !important;
   }
 
-  #header input[type="submit"] {
+  // Drupal Groups Header Search button
+  #search-theme-form-submit{
+    height: 33px;
+    border-radius: 0 !important;
+    margin-top: 0 !important;
+  }
+
+  #header input[type="submit"],
+  #search-theme-form-submit {
     border-radius: 0 !important;
     margin-top: 0 !important;
   }
