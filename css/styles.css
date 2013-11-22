@@ -9,36 +9,38 @@
     background-image: none !important;
   }
 
-  .grid-12
   .container-12 {
-    display: block;
-    float: left;
-    margin-right: 2.35765%;
-    width: 100%;
+    max-width: 1140px !important;
   }
-  .grid-12
-  .container-12:last-child {
-    margin-right: 0;
+
+  .grid-12 {
+    float: left;
+    margin-right: 2.35765% !important;
+    width: 100% !important;
+  }
+
+  .grid-12 {
+    margin-right: 0 !important;
   }
 
   .grid-8 {
-    display: block;
     float: left;
-    margin-right: 2.35765%;
-    width: 65.88078%;
+    margin-right: 2.35765% !important;
+    width: 65.88078% !important;
   }
+
   .grid-8:last-child {
-    margin-right: 0;
+    margin-right: 0 !important;
   }
 
   .grid-4 {
-    display: block;
     float: left;
-    margin-right: 2.35765%;
-    width: 31.76157%;
+    margin-right: 2.35765% !important;
+    width: 31.76157% !important;
   }
+
   .grid-4:last-child {
-    margin-right: 0;
+    margin-right: 0 !important;
   }
 
   /* Header */
@@ -106,10 +108,16 @@
   #userinfo {
     float: none !important;
     display: inline-block !important;
+    margin: 0 !important;
   }
   #userinfo a {
     padding: 0px 1em !important;
     border-width: 0px !important;
+    margin: 0 !important;
+    color: #DEF0FB;
+  }
+  #userinfo a:hover {
+    color: white;
   }
 
   /* Tabs */
@@ -152,6 +160,7 @@
     color: #fff !important;
     font-size: 18px !important;
     margin: 0 !important;
+    text-shadow: 0 1px 1px rgba(0, 0, 0, 0.25);
   }
 
   .page-title-wrapper {
@@ -177,10 +186,11 @@
   #header input[type="text"] {
     border: 0 !important;
     margin: 0 !important;
+    height: 35px !important;
   }
 
   #search-theme-form-submit {
-    height: 33px;
+    height: 35px;
     border-radius: 0 !important;
     margin-top: 0 !important;
   }
@@ -188,7 +198,8 @@
   #header input[type="submit"],
   #search-theme-form-submit {
     border-radius: 0 !important;
-    margin-top: 0 !important;
+    margin: 0 !important;
+    height: 35px !important;
   }
 
   #search-theme-form-advanced fieldset.collapsible legend a {
@@ -198,9 +209,6 @@
   }
 
   a.link-button,
-  a.link-button:link,
-  a.link-button:visited,
-  a.link-button:active,
   input[type="submit"],
   button {
     background-image: none !important;
@@ -283,6 +291,15 @@
 
   .comment-report a {
     color: #aaa !important;
+  }
+
+  /* Form Styles */
+  .form-item label {
+    margin-bottom: 3px;
+  }
+
+  .form-text {
+    padding: 4px 6px;
   }
 
   /* Issue status */
